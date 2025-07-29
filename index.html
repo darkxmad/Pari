@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don’t Forget Me, Pari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Rain Video Background -->
+    <video autoplay muted loop id="bg-video">
+        <source src="rain.mp4" type="video/mp4">
+    </video>
+
+    <!-- Screens -->
+    <div class="screen active" id="screen1">
+        <h1 class="typewriter">Please... don’t forget me, Pari 💔</h1>
+        <button class="next-btn">Next →</button>
+    </div>
+
+    <div class="screen" id="screen2">
+        <p class="message">I’ll miss our talks…</p>
+        <p class="message">I’ll miss your laugh…</p>
+        <p class="message">I’ll miss *you* 🥹✨</p>
+        <button class="next-btn">Next →</button>
+    </div>
+
+    <div class="screen" id="screen3">
+        <p class="message">Go study hard, Pari…</p>
+        <p class="message">You’re going to do amazing things 🌸📚</p>
+        <button class="next-btn">Next →</button>
+    </div>
+
+    <div class="screen" id="screen4">
+        <h1 class="goodbye-text">Goodbye, Pari!! 💖</h1>
+    </div>
+
+    <!-- Music -->
+    <audio id="bg-music" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <button id="play-btn">💖 Tap to Play Music</button>
+
+    <div id="emoji-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
